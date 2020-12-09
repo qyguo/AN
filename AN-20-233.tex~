@@ -1,0 +1,176 @@
+% Customizable fields and text areas start with % >> below.
+% Lines starting with the comment character (%) are normally removed before release outside the collaboration, but not those comments ending lines
+
+%%%%%%%%%%%%% local definitions %%%%%%%%%%%%%%%%%%%%%
+\ifthenelse{\boolean{cms@external}}{\providecommand{\cmsLeft}{top\xspace}}{\providecommand{\cmsLeft}{left\xspace}}
+\ifthenelse{\boolean{cms@external}}{\providecommand{\cmsRight}{bottom\xspace}}{\providecommand{\cmsRight}{right\xspace}}
+
+\newcommand{\ggH}{\ensuremath{\Pg\Pg\to\PH}}
+\newcommand{\qqH}{\ensuremath{\cPq\cPq\to\cPq\cPq\PH}}
+\newcommand{\WH}{\ensuremath{\PW\PH}\xspace}
+\newcommand{\ZH}{\ensuremath{\cPZ\PH}\xspace}
+\newcommand{\VH}{\ensuremath{V\PH}\xspace}
+\newcommand{\ttH}{\ensuremath{\cPqt\bar{\cPqt}\PH}\xspace}
+\newcommand{\bbH}{\ensuremath{\cPqb\bar{\cPqb}\PH}\xspace}
+\newcommand{\qqZZ}{\ensuremath{\cPq\bar{\cPq}\to\cPZ\cPZ}}
+\newcommand{\ggZZ}{\ensuremath{\Pg\Pg\to\cPZ\cPZ}}
+\newcommand{\ttZ}{\ensuremath{\cPqt\bar{\cPqt}\cPZ}}
+\newcommand{\ttZZ}{\ensuremath{\cPqt\bar{\cPqt}\cPZ\cPZ}}
+\newcommand{\ttWW}{\ensuremath{\cPqt\bar{\cPqt}\PW\PW}}
+\newcommand{\tH}{\ensuremath{\cPqt\PH}}
+\newcommand{\HZZfl}{\ensuremath{\PH\to\cPZ\cPZ\to4\ell}}
+\newcommand{\Hllll}{\ensuremath{\PH\to4\ell}}
+\newcommand{\mH}{\ensuremath{m_{\PH}}}
+\newcommand{\mllll}{\ensuremath{m_{4\ell}}}
+\newcommand{\mell}{\ensuremath{m_{4\ell}}}
+\newcommand{\mpllll}{\ensuremath{m'_{4\ell}}}
+\newcommand{\ptllll}{\ensuremath{p_{\mathrm{T},4\ell}}}
+\newcommand{\KD}{\ensuremath{{\cal D}^{\rm kin}_{\rm bkg}} }
+\newcommand{\VDj}{\mathrm{{\cal D}_{\rm jet}} }
+\newcommand{\DMeVbfjj}{\ensuremath{{\mathcal D}_{\rm 2jet}}\xspace}
+\newcommand{\DMeVbfj}{\ensuremath{{\mathcal D}_{\rm 1jet}}\xspace}
+\newcommand{\mll}{\ensuremath{m_{\ell\ell}}}
+\newcommand{\mlplm}{\ensuremath{m_{\ell^{+}\ell^{-}}}}
+\newcommand{\DMeWh}{\ensuremath{{\mathcal D}_{\rm \WH}}\xspace}
+\newcommand{\DMeZh}{\ensuremath{{\mathcal D}_{\rm \ZH}}\xspace}
+\newcommand{\DQgjj}{\ensuremath{{\mathcal D}^{\rm q/g}_{\rm 2jet}}\xspace}
+\newcommand{\DQgj}{\ensuremath{{\mathcal D}^{\rm q/g}_{\rm 1jet}}\xspace}
+\newcommand{\DCombVbfjj}{\ensuremath{{\mathcal D}^{\rm comb.}_{\rm 2jet}}\xspace}
+\newcommand{\DCombVbfj}{\ensuremath{{\mathcal D}^{\rm comb.}_{\rm 1jet}}\xspace}
+\newcommand{\DCombWh}{\ensuremath{{\mathcal D}^{\rm comb.}_{\rm \WH}}\xspace}
+\newcommand{\DCombZh}{\ensuremath{{\mathcal D}^{\rm comb.}_{\rm \ZH}}\xspace}
+\newcommand{\sip}{\ensuremath{\text{SIP}_\text{3D}} }
+\newcommand{\Zee}{\mathrm{\cPZ\rightarrow\Pe^{+}\Pe^{-}}}
+\newcommand{\Zone}{\mathrm{Z}}
+\newcommand{\MassD}{\mathrm{{\cal D}_{\rm mass}} }
+\newcommand{\MassDprime}{\mathrm{{\cal D}'_{\rm mass}} }
+\newcommand{\LikMass}{\mathcal{L}_{3D}^{m,\Gamma} }
+\newcommand{\LikMassTwoD}{\mathcal{L}_{2D}^{m,\Gamma} }
+\newcommand{\LikMassOneD}{\mathcal{L}_{1D}^{m,\Gamma} }
+\newcommand{\LikMuOneD}{\mathrm{{\cal L}_{1D}(m_{4l})} }
+\newcommand{\LikMuTwoD}{\mathrm{{\cal L}_{2D}(m_{4l},\KD)} }
+\newcommand{\LikMuOneDPrime}{\mathrm{{\cal L}_{1D}(m_{4l}')} }
+\newcommand{\LikMuTwoDPrime}{\mathrm{{\cal L}_{2D}(m_{4l}',\KD)} }
+\newcommand{\muV}{\ensuremath{\mu_{\mathrm{VBF},\mathrm{V\PH}}} }
+\newcommand{\muF}{\ensuremath{\mu_{\Pg\Pg\PH,\,\ttbar\PH}} }
+\providecommand{\cmsTable}[1]{\resizebox{\textwidth}{!}{#1}}
+
+\newcommand{\usedLumiA}{36.8\fbinv}
+\newcommand{\usedLumiB}{41.4\fbinv}
+\newcommand{\usedLumiC}{58.8\fbinv}
+\newcommand{\usedLumiABC}{137\fbinv}
+\newcommand{\posOfPValueMinimum}{12X.X}
+\newcommand{\expSignAtMinimum}{xx.x}
+\newcommand{\obsSignAtMinimum}{yy.y}
+\newcommand{\expSignAtRunIMass}{10.5}
+\newcommand{\obsSignAtRunIMass}{10.8}
+\newcommand{\valMuAtRunIMass}{\ensuremath{1.11^{+0.19}_{-0.17}}}
+\newcommand{\valMuVAtRunIMass}{\ensuremath{0.98}^{+0.92}_{-0.68}}
+\newcommand{\valMuFAtRunIMass}{\ensuremath{1.17}^{+0.19}_{-0.18}}
+\newcommand{\valMass}{\ensuremath{12X.XX^{+0.xx}_{-0.yy}}}
+\newcommand{\valMassThreeDRefit}{\ensuremath{125.25 \pm 0.20 (\mathrm{stat.}) \pm 0.08 (\mathrm{sys.})}}
+\newcommand{\valMuV}{\ensuremath{0.82}^{+0.36}_{-0.31}}
+\newcommand{\valMuF}{\ensuremath{0.96}^{+0.14}_{-0.12}}
+
+
+\newcommand{\Dbkgkin}{\ensuremath{{\mathcal{D}}^{\mathrm{kin}}_{\mathrm{bkg}}}\xspace}
+\newcommand{\DbkgVBFdec}{\ensuremath{{\mathcal{D}}^{\mathrm{VBF}+\mathrm{dec}}_{\mathrm{bkg}}}\xspace}
+\newcommand{\DbkgVHdec}{\ensuremath{{\mathcal{D}}^{\mathrm{VH}+\mathrm{dec}}_{\mathrm{bkg}}}\xspace}
+
+
+%%%%%%%%%%%%%%%  Title page %%%%%%%%%%%%%%%%%%%%%%%%
+\cmsNoteHeader{AN-20-233}
+% >> Title: please make sure that the non-TeX equivalent is in PDFTitle below for papers. For PASs, PDFTitle can be used with plain TeX.
+%\title{Measurements of Higgs differential cross section and interpretations in $\rm H\rightarrow 4\ell$ ($\ell=\rm e,\mu$) channel}
+\title{Measurements of Higgs differential cross section and interpretations in $\mathrm{H}\rightarrow{\rm Z}{\rm Z}\rightarrow4\ell$ ($\ell={\rm e},\mu$) channel}
+
+% >> Authors
+%Author is always "The CMS Collaboration" for PAS and papers, so author, etc, below will be ignored in those cases
+%For multiple affiliations, create an address entry for the combination
+%To mark authors as primary, use the \author* form
+%\address[inst1]{Beihang University (CN)}
+%\author*[inst1]{Tahir Javaid}
+
+% >> Date
+% The date is in yyyy/mm/dd format. Today has been
+% redefined to match, but if the date needs to be fixed, please write it in this fashion.
+\input{authors}
+\date{\today}
+
+% >> Abstract
+% Abstract processing:
+% 1. **DO NOT use \include or \input** to include the abstract: our abstract extractor will not search through other files than this one.
+% 2. **DO NOT use %**                  to comment out sections of the abstract: the extractor will still grab those lines (and they won't be comments any longer!).
+% 3. For PASs: **DO NOT use CMS tex macros.**...in the abstract: CDS MathJax processor used on the abstract doesn't understand them _and_ will only look within $$. The abstracts for papers are hand formatted so macros are okay.
+\abstract{
+	Properties of the Higgs boson are measured in the $\mathrm{H}\rightarrow{\rm Z}{\rm Z}\rightarrow4\ell$ ($\ell={\rm e},\mu$) decay channel. A data sample of proton-proton collisions at a center-of-mass energy of 13 TeV is used, corresponding to an integrated luminosity of $137~\mathrm{fb}^{-1}$ recorded by the CMS detector at the LHC. The fiducial cross section is measured with respect to several observables sensitive to production and decay of Higgs where the observed results are compared with POWHEG, MADGRAPH5 and NNLOPS theory predictions. The possible interpretations of the results are reported.
+
+%	Your abstract here. (One paragraph; max length roughly 200 words.)
+}
+
+% >> PDF Metadata
+% Do not comment out the following hypersetup lines (metadata). They will disappear in NODRAFT mode and are needed by CDS.
+% Also: make sure that the values of the metadata items are sensible and are in plain text with the possible exception of the PDFtitle for a PAS. Then you can use pure TeX symbols as if on a typewriter. Examples: $\sqrt{s}=13\TeV$ => $sqrt{s}=$ 13 TeV; 32\fbinv => 32 fb$^{-1}$
+% No unescaped comment % characters.
+% No curly braces {} except for TeX in the PDFtitle.
+\hypersetup{%
+pdfauthor={Tahir Javaid},%
+pdftitle={Measurements of Higgs differential cross section and interpretations in $\mathrm{H}\rightarrow{\rm Z}{\rm Z}\rightarrow4\ell$ ($\ell={\rm e},\mu$) channel},%
+pdfsubject={CMS},%
+pdfkeywords={CMS, your topics}}
+
+\maketitle %maketitle comes after all the front information has been supplied
+% >> Text
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Begin text %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% **DO NOT REMOVE THE BIBLIOGRAPHY** which is located before the appendix.
+%% You can take the text between here and the bibiliography as an example which you should replace with the actual text of your document.
+%% If you include other TeX files, be sure to use "\input{filename}" rather than "\input filename".
+%% The latter works for you, but our parser looks for the braces and will break when uploading the document.
+%%%%%%%%%%%%%%%
+
+% >> acknowledgments (for journal papers only)
+% The latest version of the acknowledgments will be included from https://twiki.cern.ch/twiki/bin/viewauth/CMS/Internal/PubAcknow as of the date of submission. 
+% !!! Anything you supply here WILL BE OVERWRITTEN, but you can include the current text as an example.
+%
+% Modify to match either US or UK English spelling for centre/center, programme/program. For PRL use the short version, for JINST normally use the long version. All others take the middle length version other than exceptional cases.
+\begin{acknowledgments}
+\end{acknowledgments}
+
+\tableofcontents
+
+\clearpage%
+
+\input{Introduction}
+\clearpage%
+%\input{Changes}
+\clearpage
+\input{Datasets} %%% 
+\clearpage
+\input{Objects} %%% 
+\clearpage
+\input{EventSelection} %%% 
+\clearpage
+\input{Observables} %%% 
+\clearpage
+\input{Categories}  %%% 
+\clearpage
+\input{Background} %%% 
+\clearpage
+\input{Signal} %%% 
+\clearpage
+\input{Systematics} %%%
+\clearpage
+\input{Yields} %%% 
+\clearpage
+\input{Results} %%%
+\clearpage
+
+
+%% **DO NOT REMOVE BIBLIOGRAPHY**
+\bibliography{auto_generated}
+%% examples of appendices.
+%\clearpage
+%\appendix
+%\section{Appendix name}
+%%% DO NOT ADD \end{document}!
+
