@@ -1,0 +1,60 @@
+%\author[tsing]{M.~Ahmad}
+%\author[torino]{N.~Amapane}
+\author[llr]{M.~Bonanomi}
+%\author[torino]{A.~Cappati}
+%\author[llr]{C.~Charlot}
+\author[beijing]{M.S.~Chen}
+%\author[jhu]{J.~Davis}
+%\author[ufl]{F.~Errico}
+\author[bologna]{E.~Fontanesi}
+%\author[split]{D.~Giljanovic} 
+%\author[jhu]{A.~Gritsan}
+\author[beihang]{Q.Y.~Guo$^{1,}$} %beijing
+%\author[wisconsin]{U.~Hussain}
+\author[beihang]{T.~Javaid$^{1,}$}
+%\author[ufl]{S.~Kent}
+%\author[split]{M.~Kovac}
+%\author[ufl]{A.~Korytov}
+%\author[ufl]{A.~Kun}
+%\author[jhu]{S.~Kyriacou}
+%\author[split]{D.~Lelas}
+%\author[ufl]{K.H.~Lo}
+\author[belgrade]{P.~Milenovic}
+\author[belgrade]{V.~Milosevic}
+\author[tsing]{M.~Ahmad}
+
+%\author[imperial]{V.~Milosevic}
+%\author[ufl]{G.~Mitselmakher}
+\author[llr]{C.~Ochando}
+\author[llr]{G.~Ortona}
+%\author[split]{I.~Puljak} 
+%\author[llr]{J.~Rembser}
+%\author[ufl]{J.~Rosenzweig}
+%\author[jhu]{H.~Roskes}
+\author[llr]{R.~Salerno}
+%\author[ucsb]{U.~Sarica}
+%\author[llr]{J.B.~Sauvan}
+%\author[wisconsin]{A.~Savin}
+\author[beijing]{R.~Sharma}
+\author[split]{T.~Sculac}
+%\author[llr]{Y.~Sirois}
+\author[boston]{D.~Sperka}
+%\author[beijing]{Z.B.~Wang}
+%\author[zhejiang]{M.~Xiao}
+%\author[beijing]{C.G.~Zhang}
+
+\address[beijing]{IHEP, Beijing}
+%\address[bologna]{Universit\`a di Bologna and INFN Bologna}
+%\address[torino]{Universit\`a di Torino and INFN Torino}
+\address[llr]{Laboratoire Leprince-Ringuet}
+%\address[ufl]{University of Florida}
+\address[split]{University of Split}
+%\address[jhu]{Johns Hopkins University}
+\address[beihang]{Beihang University}
+%\address[wisconsin]{University of Wisconsin}
+\address[belgrade]{University of Belgrade}
+%\address[imperial]{Imperial College London}
+%\address[ucsb]{University of California, Santa Barbara}
+\address[boston]{Boston University}
+%\address[zhejiang]{Zhejiang University}
+\address[tsing]{Tsinghua University}
