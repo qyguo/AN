@@ -5,12 +5,12 @@ In this section, we describe the methods used for the estimation of the signific
 
 To exploit all the properties of the resonance under study or search, a multi-dimensional fit is implemented.
 %For each of the categories defined in Section~\ref{sec:categorization}, two variables are used in the maximum likelihood fit, namely:
-For each of the categories defined in Section~\ref{sec:categorization}, the variable used in the maximum likelihood fit is:
-\begin{enumerate}
-\item The four-lepton mass without kinematic refitting $\mllll$, %or the refitted mass $m_{4\ell}'$ ;
-%\item A kinematical discriminant $K_D$, where $K_D = \DbkgVBFdec$ for VBF-2 jets tagged category, $\DbkgVHdec$ for VH-hadronic tagged category and $\KD$ for all other categories.
-% $\KD$, except in VBF-2jet and VH-hadronic categories where $\DbkgVBFdec$ and $\DbkgVHdec$ are used instead. (\textbf{FIXME: not yet in the results below}).
-\end{enumerate}
+For each of the categories defined in Section~\ref{sec:categorization}, the variable used in the maximum likelihood fit is the four-lepton mass without kinematic refitting $\mllll$. 
+%\begin{enumerate}
+%\item The four-lepton mass without kinematic refitting $\mllll$, %or the refitted mass $m_{4\ell}'$ ;
+%%\item A kinematical discriminant $K_D$, where $K_D = \DbkgVBFdec$ for VBF-2 jets tagged category, $\DbkgVHdec$ for VH-hadronic tagged category and $\KD$ for all other categories.
+%% $\KD$, except in VBF-2jet and VH-hadronic categories where $\DbkgVBFdec$ and $\DbkgVHdec$ are used instead. (\textbf{FIXME: not yet in the results below}).
+%\end{enumerate}
 
 %To account for the strong correlation of the kinematic discriminant with the mass, a 2D histogram template of $K_D$ vs. $\mllll$ is implemented.
 %Due to the small number of expected events in the mass peak, the mass dimension is unbinned and the resolution model is used as described in section \ref{sec:signalshapes}. 
@@ -35,10 +35,12 @@ For each of the categories defined in Section~\ref{sec:categorization}, the vari
 %%\subsection{Simplified Template Cross Sections}
 %%\label{sec:stxs}
 %\input{Results/stxs.tex} 
-
+\subsection{Yields and distributions}
+\input{Yields.tex}
 \clearpage 
 
 %\subsection{Differential Cross Sections}
-\subsection{Differential Cross Sections and EFT interpretations}
+\subsection{Differential Cross Sections measurement results }
 \label{sec:diff_xsec}
-\input{Results/diff_xsec.tex} 
+\input{Results/diff_xsec.tex}
+\input{Results/eft_int_results.tex}

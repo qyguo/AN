@@ -21,6 +21,7 @@
 \newcommand{\HZZfl}{\ensuremath{\PH\to\cPZ\cPZ\to4\ell}}
 \newcommand{\Hllll}{\ensuremath{\PH\to4\ell}}
 \newcommand{\mH}{\ensuremath{m_{\PH}}}
+\newcommand{\mZ}{\ensuremath{m_{Z}}}
 \newcommand{\mllll}{\ensuremath{m_{4\ell}}}
 \newcommand{\mell}{\ensuremath{m_{4\ell}}}
 \newcommand{\mpllll}{\ensuremath{m'_{4\ell}}}
@@ -148,15 +149,25 @@ pdfkeywords={CMS, your topics}}
 \clearpage
 \input{Objects} %%% 
 \clearpage
-\input{EventSelection} %%% 
-\clearpage
-\input{Observables} %%% 
-\clearpage
-\input{Categories}  %%% 
+%\input{strategy}
+%\clearpage
+%\input{strategy/EventSelection} %%% 
+%\clearpage
+%\input{strategy/def_fid_vol}
+%\clearpage
+%\input{strategy/unfolding}
+%\clearpage
+%\input{Observables} %%% 
+%\clearpage
+%\input{Categories}  %%% 
+%\clearpage
+%\input{Background} %%% 
+%\clearpage
+\input{Signal} %%% 
 \clearpage
 \input{Background} %%% 
 \clearpage
-\input{Signal} %%% 
+\input{strategy}
 \clearpage
 \input{Systematics} %%%
 \clearpage
@@ -167,10 +178,16 @@ pdfkeywords={CMS, your topics}}
 
 
 %% **DO NOT REMOVE BIBLIOGRAPHY**
-\bibliography{auto_generated}
+%\bibliography{auto_generated}
 %% examples of appendices.
 %\clearpage
-%\appendix
-%\section{Appendix name}
+\appendix
+\chapter{Appendix}
+\begin{appendices}
+\input{Appendix/SignalInputs} \label{app:siginputs}
+\end{appendices}
+\clearpage
+
+\bibliography{auto_generated}
 %%% DO NOT ADD \end{document}!
 

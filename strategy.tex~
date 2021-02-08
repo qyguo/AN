@@ -1,0 +1,10 @@
+\section{Analysis Strategy}\label{lab:strategy}
+\input{strategy/EventSelection.tex}
+%\clearpage
+\input{strategy/def_fid_vol.tex}
+%\clearpage
+\input{strategy/unfolding.tex}
+%\clearpage
+\input{strategy/acc_correc_fac.tex}
+\input{strategy/stat_procedure.tex}
+\input{strategy/ExtractionDifferential.tex}

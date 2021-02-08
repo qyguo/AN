@@ -1,10 +1,10 @@
 %\textbf{FIX ME: Distributions are updated but yields are NOT updated}
 
-\section{Yields and distributions}
+%\subsection{Yields and distributions}
 
-In this section we summarize the status of the analysis after selection, showing the inputs to the final results, namely the event yields and errors in the full signal region and in a restricted  $\mllll$ range, and the distributions of the main kinematic variables in data and MC. 
+In this subsection we summarize the status of the analysis after selection, showing the inputs to the final results, namely the event yields and errors in the full signal region and in a restricted  $\mllll$ range, and the distributions of the main kinematic variables in data and MC. 
 
-\subsection{Signal Region Yields}
+\subsubsection{Signal Region Yields}
 
 The number of candidates observed in data and the expected yields for the backgrounds and Higgs boson signal after the full event selection are reported in Table~\ref{tab:EventYieldsFull} for the full range of $\mllll$. % and in Table~\ref{tab:EventYieldsPeak} for a $118<\mllll<130~\GeV$ mass window around the Higgs boson peak.
 %in Table~\ref{tab:EventYieldsPeak} for a $118<\mllll<130~\GeV$ mass window around the Higgs boson peak, 
@@ -128,69 +128,69 @@ Table~\ref{tab:EventYieldsPeakCateg} shows the expected and observed yields for 
 
 
 %============
-\begin{table}[htb]
-	\begin{center}
-		\caption{The number of expected background and signal events and number of observed candidates after full analysis selection,
-		for each event category, for the mass range $118<\mllll<130~\GeV$, for an integrated luminosity of $\usedLumiABC$.
-		The yields are given for the different production modes.
-		Signal, $\cPZ\cPZ$ and rare electroweak backgrounds are estimated from Monte Carlo simulation, $\cPZ$+X is estimated from data.
-		\label{tab:EventYieldsPeakCateg}}
-		\cmsTable
-		{
-				\begin{tabular}{ccccccccccccccc}
-				\hline
-				Event & \multicolumn{7}{|c}{Signal} & \multicolumn{4}{|c}{Background} &  \multicolumn{2}{|c|}{Expected} & Observed \\
-
-				 category & \multicolumn{1}{|c}{$\ggH$} &\VBF    &\WH    &\ZH    &\ttH   &\bbH   & \tH  & \multicolumn{1}{|c}{$\qqZZ$} &$\ggZZ$  &  EWK &  $\cPZ$+X & \multicolumn{1}{|c}{signal} &  \multicolumn{1}{c|}{total} &  \\
-				\hline
-				Untagged-0j-$\pt^{4\ell}[0,10]$ & 25.75 & 0.08 & 0.02 & 0.03 & 0.00 & 0.14 & 0.00 & 26.95 & 1.08 & 0.00 & 1.09 & 26.01 & 55.14 & 59
-				\\
-				Untagged-0j-$\pt^{4\ell}[10,200]$ & 88.86 & 1.56 & 0.53 & 1.09 & 0.00 & 0.93 & 0.00 & 36.40 & 4.10 & 0.06 & 14.78 & 92.97 & 148.31 & 163
-				\\
-				Untagged-1j-$\pt^{4\ell}[0,60]$ & 24.74 & 1.39 & 0.5 & 0.5 & 0.01 & 0.42 & 0.01 & 9.46 & 1.10 & 0.13 & 5.52 & 27.58 & 43.78 & 40
-				\\
-				Untagged-1j-$\pt^{4\ell}[60,120]$ & 12.59 & 1.22 & 0.46 & 0.59 & 0.01 & 0.10 & 0.01 & 2.88 & 0.28 & 0.02 & 3.12 & 14.98 & 21.29 & 15
-				\\
-				Untagged-1j-$\pt^{4\ell}[120,200]$ & 3.33 & 0.56 & 0.16 & 0.39 & 0.01 & 0.02 & 0.00 & 0.39 & 0.06 & 0.00 & 0.48 & 4.47 & 5.40 & 9
-				\\
-				Untagged-2j-$\pt^{4\ell}[0,60]$ & 3.15 & 0.26 & 0.13 & 0.16 & 0.06 & 0.08 & 0.02 & 0.77 & 0.12 & 0.06 & 2.05 & 3.86 & 6.86 & 7
-				\\
-				Untagged-2j-$\pt^{4\ell}[60,120]$ & 4.85 & 0.51 & 0.21 & 0.28 & 0.09 & 0.04 & 0.02 & 0.78 & 0.10 & 0.05 & 1.80 & 6.01 & 8.75 & 10
-				\\
-				Untagged-2j-$\pt^{4\ell}[120,200]$ & 2.86 & 0.38 & 0.15 & 0.24 & 0.07 & 0.01 & 0.01 & 0.26 & 0.05 & 0.02 & 0.43 & 3.72 & 4.48 & 5
-				\\
-				Untagged-$\pt^{4\ell}\gt200$ & 2.64 & 0.59 & 0.19 & 0.32 & 0.07 & 0.01 & 0.02 & 0.16 & 0.07 & 0.05 & 0.22 & 3.84 & 4.34 & 2
-				\\
-				Untagged-2j-$m_{jj}\gt350$ & 0.72 & 0.15 & 0.06 & 0.06 & 0.04 & 0.01 & 0.01 & 0.13 & 0.02 & 0.01 & 0.59 & 1.06 & 1.81 & 3
-				\\
-				$\VBF$-1jet-tagged & 14.38 & 3.04 & 0.2 & 0.25 & 0.00 & 0.12 & 0.01 & 2.39 & 0.53 & 0.00 & 0.99 & 18.01 & 21.92 & 20
-				\\
-				$\VBF$-2jet-tagged-$m_{jj}[350,700]$ & 0.77 & 1.10 & 0.01 & 0.01 & 0.00 & 0.01 & 0.00 & 0.06 & 0.02 & 0.00 & 0.05 & 1.91 & 2.04 & 2
-				\\
-				$\VBF$-2jet-tagged-$m_{jj}\gt700$ & 0.41 & 1.83 & 0.0 & 0.0 & 0.00 & 0.00 & 0.00 & 0.02 & 0.02 & 0.00 & 0.02 & 2.25 & 2.32 & 1
-				\\
-				$\VBF$-3jet-tagged-$m_{jj}\gt350$ & 2.34 & 2.18 & 0.07 & 0.1 & 0.03 & 0.03 & 0.04 & 0.23 & 0.07 & 0.01 & 1.05 & 4.78 & 6.14 & 10
-				\\
-				$\VBF$-2jet-tagged-$\pt^{4\ell}\gt200$ & 0.42 & 0.75 & 0.01 & 0.01 & 0.01 & 0.00 & 0.01 & 0.01 & 0.01 & 0.00 & 0.03 & 1.21 & 1.26 & 0
-				\\
-				VBF-rest & 2.27 & 0.87 & 0.11 & 0.12 & 0.03 & 0.03 & 0.01 & 0.32 & 0.07 & 0.02 & 0.76 & 3.46 & 4.64 & 2
-				\\
-				$\VH$-hadronic-tagged-$m_{jj}[60,120]$ & 3.88 & 0.23 & 1.02 & 1.82 & 0.11 & 0.06 & 0.02 & 0.62 & 0.08 & 0.03 & 1.19 & 7.14 & 9.07 & 7
-				\\
-				VH-rest & 0.56 & 0.03 & 0.09 & 0.1 & 0.02 & 0.00 & 0.00 & 0.08 & 0.01 & 0.00 & 0.12 & 0.81 & 1.03 & 0
-				\\
-				$\VH$-leptonic-tagged-$\pt^{4\ell}[0,150]$ & 0.21 & 0.03 & 0.7 & 0.32 & 0.08 & 0.02 & 0.02 & 0.75 & 0.13 & 0.01 & 0.37 & 1.38 & 2.65 & 3
-				\\
-				$\VH$-leptonic-tagged-$\pt^{4\ell}\gt150$ & 0.02 & 0.01 & 0.2 & 0.13 & 0.04 & 0.00 & 0.01 & 0.01 & 0.00 & 0.00 & 0.03 & 0.40 & 0.45 & 0
-				\\
-				$\ttH$-leptonic-tagged & 0.02 & 0.00 & 0.02 & 0.02 & 0.59 & 0.00 & 0.03 & 0.03 & 0.00 & 0.02 & 0.10 & 0.69 & 0.86 & 0
-				\\
-				$\ttH$-hadronic-tagged & 0.17 & 0.05 & 0.03 & 0.08 & 0.81 & 0.01 & 0.03 & 0.01 & 0.00 & 0.05 & 0.45 & 1.17 & 1.69 & 2
-				\\
-				\hline
-\end{tabular}}
-\end{center}
-\end{table}
+%\begin{table}[htb]
+%	\begin{center}
+%		\caption{The number of expected background and signal events and number of observed candidates after full analysis selection,
+%		for each event category, for the mass range $118<\mllll<130~\GeV$, for an integrated luminosity of $\usedLumiABC$.
+%		The yields are given for the different production modes.
+%		Signal, $\cPZ\cPZ$ and rare electroweak backgrounds are estimated from Monte Carlo simulation, $\cPZ$+X is estimated from data.
+%		\label{tab:EventYieldsPeakCateg}}
+%		\cmsTable
+%		{
+%				\begin{tabular}{ccccccccccccccc}
+%				\hline
+%				Event & \multicolumn{7}{|c}{Signal} & \multicolumn{4}{|c}{Background} &  \multicolumn{2}{|c|}{Expected} & Observed \\
+%
+%				 category & \multicolumn{1}{|c}{$\ggH$} &\VBF    &\WH    &\ZH    &\ttH   &\bbH   & \tH  & \multicolumn{1}{|c}{$\qqZZ$} &$\ggZZ$  &  EWK &  $\cPZ$+X & \multicolumn{1}{|c}{signal} &  \multicolumn{1}{c|}{total} &  \\
+%				\hline
+%				Untagged-0j-$\pt^{4\ell}[0,10]$ & 25.75 & 0.08 & 0.02 & 0.03 & 0.00 & 0.14 & 0.00 & 26.95 & 1.08 & 0.00 & 1.09 & 26.01 & 55.14 & 59
+%				\\
+%				Untagged-0j-$\pt^{4\ell}[10,200]$ & 88.86 & 1.56 & 0.53 & 1.09 & 0.00 & 0.93 & 0.00 & 36.40 & 4.10 & 0.06 & 14.78 & 92.97 & 148.31 & 163
+%				\\
+%				Untagged-1j-$\pt^{4\ell}[0,60]$ & 24.74 & 1.39 & 0.5 & 0.5 & 0.01 & 0.42 & 0.01 & 9.46 & 1.10 & 0.13 & 5.52 & 27.58 & 43.78 & 40
+%				\\
+%				Untagged-1j-$\pt^{4\ell}[60,120]$ & 12.59 & 1.22 & 0.46 & 0.59 & 0.01 & 0.10 & 0.01 & 2.88 & 0.28 & 0.02 & 3.12 & 14.98 & 21.29 & 15
+%				\\
+%				Untagged-1j-$\pt^{4\ell}[120,200]$ & 3.33 & 0.56 & 0.16 & 0.39 & 0.01 & 0.02 & 0.00 & 0.39 & 0.06 & 0.00 & 0.48 & 4.47 & 5.40 & 9
+%				\\
+%				Untagged-2j-$\pt^{4\ell}[0,60]$ & 3.15 & 0.26 & 0.13 & 0.16 & 0.06 & 0.08 & 0.02 & 0.77 & 0.12 & 0.06 & 2.05 & 3.86 & 6.86 & 7
+%				\\
+%				Untagged-2j-$\pt^{4\ell}[60,120]$ & 4.85 & 0.51 & 0.21 & 0.28 & 0.09 & 0.04 & 0.02 & 0.78 & 0.10 & 0.05 & 1.80 & 6.01 & 8.75 & 10
+%				\\
+%				Untagged-2j-$\pt^{4\ell}[120,200]$ & 2.86 & 0.38 & 0.15 & 0.24 & 0.07 & 0.01 & 0.01 & 0.26 & 0.05 & 0.02 & 0.43 & 3.72 & 4.48 & 5
+%				\\
+%				Untagged-$\pt^{4\ell}\gt200$ & 2.64 & 0.59 & 0.19 & 0.32 & 0.07 & 0.01 & 0.02 & 0.16 & 0.07 & 0.05 & 0.22 & 3.84 & 4.34 & 2
+%				\\
+%				Untagged-2j-$m_{jj}\gt350$ & 0.72 & 0.15 & 0.06 & 0.06 & 0.04 & 0.01 & 0.01 & 0.13 & 0.02 & 0.01 & 0.59 & 1.06 & 1.81 & 3
+%				\\
+%				$\VBF$-1jet-tagged & 14.38 & 3.04 & 0.2 & 0.25 & 0.00 & 0.12 & 0.01 & 2.39 & 0.53 & 0.00 & 0.99 & 18.01 & 21.92 & 20
+%				\\
+%				$\VBF$-2jet-tagged-$m_{jj}[350,700]$ & 0.77 & 1.10 & 0.01 & 0.01 & 0.00 & 0.01 & 0.00 & 0.06 & 0.02 & 0.00 & 0.05 & 1.91 & 2.04 & 2
+%				\\
+%				$\VBF$-2jet-tagged-$m_{jj}\gt700$ & 0.41 & 1.83 & 0.0 & 0.0 & 0.00 & 0.00 & 0.00 & 0.02 & 0.02 & 0.00 & 0.02 & 2.25 & 2.32 & 1
+%				\\
+%				$\VBF$-3jet-tagged-$m_{jj}\gt350$ & 2.34 & 2.18 & 0.07 & 0.1 & 0.03 & 0.03 & 0.04 & 0.23 & 0.07 & 0.01 & 1.05 & 4.78 & 6.14 & 10
+%				\\
+%				$\VBF$-2jet-tagged-$\pt^{4\ell}\gt200$ & 0.42 & 0.75 & 0.01 & 0.01 & 0.01 & 0.00 & 0.01 & 0.01 & 0.01 & 0.00 & 0.03 & 1.21 & 1.26 & 0
+%				\\
+%				VBF-rest & 2.27 & 0.87 & 0.11 & 0.12 & 0.03 & 0.03 & 0.01 & 0.32 & 0.07 & 0.02 & 0.76 & 3.46 & 4.64 & 2
+%				\\
+%				$\VH$-hadronic-tagged-$m_{jj}[60,120]$ & 3.88 & 0.23 & 1.02 & 1.82 & 0.11 & 0.06 & 0.02 & 0.62 & 0.08 & 0.03 & 1.19 & 7.14 & 9.07 & 7
+%				\\
+%				VH-rest & 0.56 & 0.03 & 0.09 & 0.1 & 0.02 & 0.00 & 0.00 & 0.08 & 0.01 & 0.00 & 0.12 & 0.81 & 1.03 & 0
+%				\\
+%				$\VH$-leptonic-tagged-$\pt^{4\ell}[0,150]$ & 0.21 & 0.03 & 0.7 & 0.32 & 0.08 & 0.02 & 0.02 & 0.75 & 0.13 & 0.01 & 0.37 & 1.38 & 2.65 & 3
+%				\\
+%				$\VH$-leptonic-tagged-$\pt^{4\ell}\gt150$ & 0.02 & 0.01 & 0.2 & 0.13 & 0.04 & 0.00 & 0.01 & 0.01 & 0.00 & 0.00 & 0.03 & 0.40 & 0.45 & 0
+%				\\
+%				$\ttH$-leptonic-tagged & 0.02 & 0.00 & 0.02 & 0.02 & 0.59 & 0.00 & 0.03 & 0.03 & 0.00 & 0.02 & 0.10 & 0.69 & 0.86 & 0
+%				\\
+%				$\ttH$-hadronic-tagged & 0.17 & 0.05 & 0.03 & 0.08 & 0.81 & 0.01 & 0.03 & 0.01 & 0.00 & 0.05 & 0.45 & 1.17 & 1.69 & 2
+%				\\
+%				\hline
+%\end{tabular}}
+%\end{center}
+%\end{table}
 %============
 
 
@@ -239,7 +239,7 @@ Table~\ref{tab:EventYieldsPeakCateg} shows the expected and observed yields for 
 	%\end{center}
 %\end{table}
 
-\subsection{Signal Region Distributions}
+\subsubsection{Signal Region Distributions}
 
 The reconstructed four-lepton invariant mass distribution is shown in Figure~\ref{fig:Mass4lC} for the full dataset, and compared to expectations from the SM backgrounds, first for the full mass range, and then zooming on the low-mass range and high-mass range. 
 In Figure~\ref{fig:Mass4l-2C}, the same distributions are shown split by final state ($4e$, $4\mu$, and $2e2\mu$), for the two same mass ranges.
@@ -253,9 +253,9 @@ The SM background distributions are obtained combining the rate normalization fr
 \begin{figure}[!htb]
 	\vspace*{0.3cm}
 	\begin{center}
-		\includegraphics[width=0.85\textwidth]{Figures/KinDistr/M4lMain_Unblinded_4l_InclusiveRun2.png} \\ %a_M4l__4l_inclusive_.pdf}\\
-		\includegraphics[width=0.45\textwidth]{Figures/KinDistr/M4lMainZoomed_Unblinded_4l_InclusiveRun2.png} %a_M4l_70170_4l_inclusive_.pdf}
-		\includegraphics[width=0.45\textwidth]{Figures/KinDistr/M4lMainHighMass_Unblinded_4l_InclusiveRun2.png} %a_M4l_above170_4l_inclusive_.pdf}
+		\includegraphics[width=0.6\textwidth]{Figures/KinDistr/M4lMain_Unblinded_4l_InclusiveRun2.png} \\ %a_M4l__4l_inclusive_.pdf}\\
+		\includegraphics[width=0.4\textwidth]{Figures/KinDistr/M4lMainZoomed_Unblinded_4l_InclusiveRun2.png} %a_M4l_70170_4l_inclusive_.pdf}
+		\includegraphics[width=0.4\textwidth]{Figures/KinDistr/M4lMainHighMass_Unblinded_4l_InclusiveRun2.png} %a_M4l_above170_4l_inclusive_.pdf}
 		\caption{Distribution of the four-lepton reconstructed invariant mass $\mllll$ in the full mass range (top) and the low-mass range (bottom left) and high-mass range (bottom right). Points with error bars represent the data and stacked histograms represent expected distributions. The $125~\GeV$ Higgs boson signal and the $\cPZ\cPZ$ backgrounds are normalized to the SM expectation, the $\cPZ$+X background to the estimation from data.
 			%what about high mass range??
 			%No event is observed with $\mllll>1\TeV$.
@@ -268,12 +268,12 @@ The SM background distributions are obtained combining the rate normalization fr
 \begin{figure}[!htb]
 	\vspace*{0.3cm}
 	\begin{center}
-		\includegraphics[width=0.56\textwidth]{Figures/KinDistr/M4lMain_Unblinded_4e_InclusiveRun2.png}
-		\includegraphics[width=0.43\textwidth]{Figures/KinDistr/M4lMainZoomed_Unblinded_4e_InclusiveRun2.png}\\
-		\includegraphics[width=0.56\textwidth]{Figures/KinDistr/M4lMain_Unblinded_4mu_InclusiveRun2.png}
-		\includegraphics[width=0.43\textwidth]{Figures/KinDistr/M4lMainZoomed_Unblinded_4mu_InclusiveRun2.png}\\
-		\includegraphics[width=0.56\textwidth]{Figures/KinDistr/M4lMain_Unblinded_2e2mu_InclusiveRun2.png}
-		\includegraphics[width=0.43\textwidth]{Figures/KinDistr/M4lMainZoomed_Unblinded_2e2mu_InclusiveRun2.png}\\
+		\includegraphics[width=0.4\textwidth]{Figures/KinDistr/M4lMain_Unblinded_4e_InclusiveRun2.png}
+		\includegraphics[width=0.4\textwidth]{Figures/KinDistr/M4lMainZoomed_Unblinded_4e_InclusiveRun2.png}\\
+		\includegraphics[width=0.4\textwidth]{Figures/KinDistr/M4lMain_Unblinded_4mu_InclusiveRun2.png}
+		\includegraphics[width=0.4\textwidth]{Figures/KinDistr/M4lMainZoomed_Unblinded_4mu_InclusiveRun2.png}\\
+		\includegraphics[width=0.4\textwidth]{Figures/KinDistr/M4lMain_Unblinded_2e2mu_InclusiveRun2.png}
+		\includegraphics[width=0.4\textwidth]{Figures/KinDistr/M4lMainZoomed_Unblinded_2e2mu_InclusiveRun2.png}\\
 		\caption{ Distribution of the four-lepton reconstructed mass in several sub-channels: $4e$ (top), $4\mu$ (middle), $2e2\mu$ for the low-mass range (bottom) for the full mass range (left) and the low-mass range (right).
 			\label{fig:Mass4l-2C}}
 	\end{center}
@@ -281,45 +281,46 @@ The SM background distributions are obtained combining the rate normalization fr
 %==================
 
 %=============
-\begin{figure}[!htb]
-	\vspace*{0.3cm}
-	\begin{center}
-		\subfigure[]{ \includegraphics[width=0.45\textwidth]{Figures/KinDistr/M4lMain_Unblinded_4l_UnTaggedRun2.png}} 
-		\subfigure[]{ \includegraphics[width=0.45\textwidth]{Figures/KinDistr/M4lMain_Unblinded_4l_VBF1jTaggedRun2.png}} \\
-		\subfigure[]{ \includegraphics[width=0.45\textwidth]{Figures/KinDistr/M4lMain_Unblinded_4l_VBF2jTaggedRun2.png}} 
-		\subfigure[]{ \includegraphics[width=0.45\textwidth]{Figures/KinDistr/M4lMain_Unblinded_4l_VHHadrTaggedRun2.png}} \\
-		\subfigure[]{ \includegraphics[width=0.33\textwidth]{Figures/KinDistr/M4lMain_Unblinded_4l_VHLeptTaggedRun2.png}} 
-		%\subfigure[]{ \includegraphics[width=0.33\textwidth]{Figures/KinDistr/M4lMain_Blinded_4l_VHMETTagged.pdf}} \\
-		\subfigure[]{ \includegraphics[width=0.33\textwidth]{Figures/KinDistr/M4lMain_Unblinded_4l_ttHHadrTaggedRun2.png}} 
-		\subfigure[]{ \includegraphics[width=0.33\textwidth]{Figures/KinDistr/M4lMain_Unblinded_4l_ttHLeptTaggedRun2.png}} \\
-		\caption{ Distribution of the four-lepton reconstructed mass in the seven event categories for the low-mass range.
-			(a) untagged category (b) VBF-1jet-tagged category (c) VBF-2jet-tagged category (d) VH-hadronic-tagged category (e) VH-leptonic-tagged category (f) \ttH-hadronic-tagged category (g) \ttH-leptonic-tagged category.
-			%(f) VH-MET-tagged category (g) \ttH-hadronic-tagged category (h) \ttH-leptonic-tagged category.
-			\label{fig:Mass4l-3C}}
-	\end{center}
-\end{figure}
-%=======
+%\begin{figure}[!htb]
+%	\vspace*{0.3cm}
+%	\begin{center}
+%		\subfigure[]{ \includegraphics[width=0.45\textwidth]{Figures/KinDistr/M4lMain_Unblinded_4l_UnTaggedRun2.png}} 
+%		\subfigure[]{ \includegraphics[width=0.45\textwidth]{Figures/KinDistr/M4lMain_Unblinded_4l_VBF1jTaggedRun2.png}} \\
+%		\subfigure[]{ \includegraphics[width=0.45\textwidth]{Figures/KinDistr/M4lMain_Unblinded_4l_VBF2jTaggedRun2.png}} 
+%		\subfigure[]{ \includegraphics[width=0.45\textwidth]{Figures/KinDistr/M4lMain_Unblinded_4l_VHHadrTaggedRun2.png}} \\
+%		\subfigure[]{ \includegraphics[width=0.33\textwidth]{Figures/KinDistr/M4lMain_Unblinded_4l_VHLeptTaggedRun2.png}} 
+%		%\subfigure[]{ \includegraphics[width=0.33\textwidth]{Figures/KinDistr/M4lMain_Blinded_4l_VHMETTagged.pdf}} \\
+%		\subfigure[]{ \includegraphics[width=0.33\textwidth]{Figures/KinDistr/M4lMain_Unblinded_4l_ttHHadrTaggedRun2.png}} 
+%		\subfigure[]{ \includegraphics[width=0.33\textwidth]{Figures/KinDistr/M4lMain_Unblinded_4l_ttHLeptTaggedRun2.png}} \\
+%		\caption{ Distribution of the four-lepton reconstructed mass in the seven event categories for the low-mass range.
+%			(a) untagged category (b) VBF-1jet-tagged category (c) VBF-2jet-tagged category (d) VH-hadronic-tagged category (e) VH-leptonic-tagged category (f) \ttH-hadronic-tagged category (g) \ttH-leptonic-tagged category.
+%			%(f) VH-MET-tagged category (g) \ttH-hadronic-tagged category (h) \ttH-leptonic-tagged category.
+%			\label{fig:Mass4l-3C}}
+%	\end{center}
+%\end{figure}
+%%=======
 
 
 The reconstructed dilepton invariant masses selected as Z$_1$ and Z$_2$ are shown in Figures~\ref{fig:MZ1C} together with their correlation, both full range of of $\mllll$ and focusing on a $118<\mllll<130~\GeV$ mass window around the Higgs boson peak.
 %and~\ref{fig:MZ2} in the full mass range.
 %with their correlation, both in the full range of $\mllll$ and focusing on a $118<\mllll<130~\GeV$ mass window around the Higgs boson peak.
-Similarly, the decay discriminant $\KD$, $\DbkgVBFdec$ and $\DbkgVHdec$ are shown in Fig.~\ref{fig:KDvsM4lC},~\ref{fig:KDVBFsvsM4lC} and~\ref{fig:KDVHsvsM4lC} in this window. % in these two windows, as well as its correlation with the four-lepton invariant mass.
-The four production mechanism discriminant $\DMeVbfjj$, $\DMeVbfj$, $\DMeWh$, and $\DMeZh$ are shown in Fig.~\ref{fig:DprodC} in the $118<\mllll<130~\GeV$ mass window, for events with at least two selected jets (except $\DMeVbfj$ which is for events with exactly one selected jet). 
-Their correlations with $\mllll$ are shown in Fig.~\ref{fig:Dprod-corrC}. 
+%Similarly, the decay discriminant $\KD$, $\DbkgVBFdec$ and $\DbkgVHdec$ are shown in Fig.~\ref{fig:KDvsM4lC},~\ref{fig:KDVBFsvsM4lC} and~\ref{fig:KDVHsvsM4lC} in this window. % in these two windows, as well as its correlation with the four-lepton invariant mass.
+%The four production mechanism discriminant $\DMeVbfjj$, $\DMeVbfj$, $\DMeWh$, and $\DMeZh$ are shown in Fig.~\ref{fig:DprodC} in the $118<\mllll<130~\GeV$ mass window, for events with at least two selected jets (except $\DMeVbfj$ which is for events with exactly one selected jet). 
+%Their correlations with $\mllll$ are shown in Fig.~\ref{fig:Dprod-corrC}. 
 
 %=============
 \begin{figure}[!htb]
 	\vspace*{0.3cm}
 	\begin{center}
 		%\includegraphics[width=0.450\textwidth]{Figures/KinDistr/2018/MZ1_Unblinded_4l_Inclusive.pdf} %fb_MZ1_4l_inclusive_.pdf}
-		\includegraphics[width=0.450\textwidth]{Figures/KinDistr/MZ1_M4L118130_Unblinded_4l_InclusiveRun2.png} \\ %fb_MZ1_4l_inclusive_.pdf}
+		\includegraphics[width=0.40\textwidth]{Figures/KinDistr/MZ1_M4L118130_Unblinded_4l_InclusiveRun2.png} \\ %fb_MZ1_4l_inclusive_.pdf}
 		%\includegraphics[width=0.450\textwidth]{Figures/KinDistr/2018/MZ2_Unblinded_4l_Inclusive.pdf} %fb_MZ1_4l_inclusive_.pdf}
-		\includegraphics[width=0.450\textwidth]{Figures/KinDistr/MZ2_M4L118130_Unblinded_4l_InclusiveRun2.png} \\ %fb_MZ1_4l_inclusive_.pdf}
+		\includegraphics[width=0.40\textwidth]{Figures/KinDistr/MZ2_M4L118130_Unblinded_4l_InclusiveRun2.png} \\ %fb_MZ1_4l_inclusive_.pdf}
 		%\includegraphics[width=0.45\textwidth]{Figures/KinDistr/2018/MZ1vsMZ2_Unblinded_Inclusive.pdf}
-		\includegraphics[width=0.45\textwidth]{Figures/KinDistr/MZ1vsMZ2_M4L118130_Unblinded_InclusiveRun2.png}
-		\caption{%\textb{FIXME: Add low mass plots after unblinding.}
-			Distribution of the $\cPZ_1$ (top), $\cPZ_2$ (middle) and $\cPZ_1$ vs $\cPZ_2$ (bottom) reconstructed invariant masses for the full mass range (left) and the low mass ($118<\mllll<130~\GeV$) range (right). 
+%		\includegraphics[width=0.45\textwidth]{Figures/KinDistr/MZ1vsMZ2_M4L118130_Unblinded_InclusiveRun2.png}
+%		\caption{%\textb{FIXME: Add low mass plots after unblinding.}
+			%Distribution of the $\cPZ_1$ (top), $\cPZ_2$ (middle) and $\cPZ_1$ vs $\cPZ_2$ (bottom) reconstructed invariant masses for the full mass range (left) and the low mass ($118<\mllll<130~\GeV$) range (right). 
+			Distribution of the $\cPZ_1$ (left) and  $\cPZ_2$ (right) reconstructed invariant masses for the full mass range (left) and the low mass ($118<\mllll<130~\GeV$) range (right). 
 			%Distribution of the $\cPZ_1$  reconstructed invariant masses for the full mass range (blinded), for all final states (top left), and for 4e (top right), 4mu (bottom left) and 2e2mu (bottom right) separately. 
 			The stacked histograms and the gray scale represent expected distributions, and points represent the data. The $125~\GeV$ Higgs boson signal and the $\cPZ\cPZ$ backgrounds are normalized to the SM expectation, the $\cPZ$+X background to the estimation from data.
 			%Distribution of the $\cPZ_1$ (left) and $\cPZ_2$ (center) reconstructed invariant masses and correlation between the two (right), for the full mass range (top row) and the mass region $118<\mllll<130~\GeV$ (bottom row). The stacked histograms and the gray scale represent expected distributions, and points represent the data. The $125~\GeV$ Higgs boson signal and the $\cPZ\cPZ$ backgrounds are normalized to the SM expectation, the $\cPZ$+X background to the estimation from data.
@@ -330,61 +331,61 @@ Their correlations with $\mllll$ are shown in Fig.~\ref{fig:Dprod-corrC}.
 
 
 %=======
-\begin{figure}[!htb]
-	\vspace*{0.3cm}
-	\begin{center}
-	  \includegraphics[width=0.455\textwidth]{Figures/KinDistr/KD_Unblinded_4l_InclusiveRun2.png} %d_KD_4l_inclusive_.pdf}KD_Blinded_4l_Inclusive.pdf
-		\includegraphics[width=0.455\textwidth]{Figures/KinDistr/KD_M4L118130_Unblinded_4l_InclusiveRun2.png} \\
-		%\includegraphics[width=0.455\textwidth]{Figures/KinDistr/2018/KDvsM4l_Unblinded_Inclusive.pdf}
-		\includegraphics[width=0.455\textwidth]{Figures/KinDistr/KDvsM4lZoomed_Unblinded_all_categoriesRun2.png} 
-                \includegraphics[width=0.455\textwidth]{Figures/KinDistr/KDvsM4lHighMass_Unblinded_InclusiveRun2.png} \\
-		
-		\caption{
-		%\textb{FIXME: Add low mass plots after unblinding.}
-			%One-dimensional distribution of the kinematic discriminant $\KD$ in the full mass range (blinded), for all final states (top left) and for 4e  (top right), 4mu (bottom left) and 2e2mu (bottom right) separately.  Points with error bars represent the data and stacked histograms represent expected distributions. The $125~\GeV$ Higgs boson signal and the $\cPZ\cPZ$ backgrounds are normalized to the SM expectation, the $\cPZ$+X background to the estimation from data.
-			Top row: One-dimensional distribution of the kinematic discriminant $\KD$ in the full mass range (left) and in the mass region $118<\mllll<130~\GeV$ (right). Points with error bars represent the data and stacked histograms represent expected distributions. The $125~\GeV$ Higgs boson signal and the $\cPZ\cPZ$ backgrounds are normalized to the SM expectation, the $\cPZ$+X background to the estimation from data.
-			Bottom row: Distribution of the kinematic discriminant $\KD$ versus the four-lepton reconstructed mass $\mllll$ in the low-mass region (left) and in the high-mass region (right). The gray scale represents the expected relative density of $\cPZ\cPZ$ background plus Higgs boson signal for $\mH=125~\GeV$. The points show the data and the horizontal bars represent the measured mass uncertainties. 
-			\label{fig:KDvsM4lC}}
-	\end{center}
-\end{figure}
-%=======
-
-%=======
-\begin{figure}[!htb]
-	\vspace*{0.3cm}
-	\begin{center}
-		\includegraphics[width=0.455\textwidth]{Figures/KinDistr/DVBFDEC_Unblinded_4l_VBF2jTaggedRun2.png} %d_KD_4l_inclusive_.pdf}KD_Blinded_4l_Inclusive.pdf
-		\includegraphics[width=0.455\textwidth]{Figures/KinDistr/DVBFDEC_M4L118130_Unblinded_4l_VBF2jTaggedRun2.png} \\
-		\includegraphics[width=0.455\textwidth]{Figures/KinDistr/DVBFDECvsM4lZoomed_Unblinded_all_categoriesRun2.png}
-		%\includegraphics[width=0.455\textwidth]{Figures/KinDistr/KDvsM4lZoomed_Unblinded_all_categories.pdf} \\
-		\caption{ %\textb{FIXME: Add low mass plots after unblinding.}
-			%One-dimensional distribution of the kinematic discriminant $\KD$ in the full mass range (blinded), for all final states (top left) and for 4e  (top right), 4mu (bottom left) and 2e2mu (bottom right) separately.  Points with error bars represent the data and stacked histograms represent expected distributions. The $125~\GeV$ Higgs boson signal and the $\cPZ\cPZ$ backgrounds are normalized to the SM expectation, the $\cPZ$+X background to the estimation from data.
-			Top row: One-dimensional distribution of the kinematic discriminant $\DbkgVBFdec$ in the full mass range (left) and in the mass region $118<\mllll<130~\GeV$ (right). Points with error bars represent the data and stacked histograms represent expected distributions. The $125~\GeV$ Higgs boson signal and the $\cPZ\cPZ$ backgrounds are normalized to the SM expectation, the $\cPZ$+X background to the estimation from data.
-			Bottom row: Distribution of the kinematic discriminant $\DbkgVBFdec$ versus the four-lepton reconstructed mass $\mllll$ in the low-mass region.
-			% (left) and in the high-mass region (right). 
-			The gray scale represents the expected relative density of $\cPZ\cPZ$ background plus Higgs boson signal for $\mH=125~\GeV$. The points show the data and the horizontal bars represent the measured mass uncertainties. 
-			\label{fig:KDVBFsvsM4lC}}
-	\end{center}
-\end{figure}
-%=======
-
-%=======
-\begin{figure}[!htb]
-	\vspace*{0.3cm}
-	\begin{center}
-	  \includegraphics[width=0.455\textwidth]{Figures/KinDistr/DVHDEC_Unblinded_4l_VHHadrTaggedRun2.png} 
-		\includegraphics[width=0.455\textwidth]{Figures/KinDistr/DVHDEC_M4L118130_Unblinded_4l_VHHadrTaggedRun2.png} \\
-		\includegraphics[width=0.455\textwidth]{Figures/KinDistr/DVHDECvsM4lZoomed_Unblinded_all_categoriesRun2.png}
-		%\includegraphics[width=0.455\textwidth]{Figures/KinDistr/KDvsM4lZoomed_Unblinded_all_categories.pdf} \\
-		\caption{ %\textb{FIXME: Add low mass plots after unblinding.}
-			%One-dimensional distribution of the kinematic discriminant $\KD$ in the full mass range (blinded), for all final states (top left) and for 4e  (top right), 4mu (bottom left) and 2e2mu (bottom right) separately.  Points with error bars represent the data and stacked histograms represent expected distributions. The $125~\GeV$ Higgs boson signal and the $\cPZ\cPZ$ backgrounds are normalized to the SM expectation, the $\cPZ$+X background to the estimation from data.
-			Top row: One-dimensional distribution of the kinematic discriminant $\DbkgVHdec$ in the full mass range (left) and in the mass region $118<\mllll<130~\GeV$ (right). Points with error bars represent the data and stacked histograms represent expected distributions. The $125~\GeV$ Higgs boson signal and the $\cPZ\cPZ$ backgrounds are normalized to the SM expectation, the $\cPZ$+X background to the estimation from data.
-			Bottom row: Distribution of the kinematic discriminant $\DbkgVHdec$ versus the four-lepton reconstructed mass $\mllll$ in the low-mass region.
-			% (left) and in the high-mass region (right). 
-			The gray scale represents the expected relative density of $\cPZ\cPZ$ background plus Higgs boson signal for $\mH=125~\GeV$. The points show the data and the horizontal bars represent the measured mass uncertainties. 
-			\label{fig:KDVHsvsM4lC}}
-	\end{center}
-\end{figure}
+%\begin{figure}[!htb]
+%	\vspace*{0.3cm}
+%	\begin{center}
+%	  \includegraphics[width=0.455\textwidth]{Figures/KinDistr/KD_Unblinded_4l_InclusiveRun2.png} %d_KD_4l_inclusive_.pdf}KD_Blinded_4l_Inclusive.pdf
+%		\includegraphics[width=0.455\textwidth]{Figures/KinDistr/KD_M4L118130_Unblinded_4l_InclusiveRun2.png} \\
+%		%\includegraphics[width=0.455\textwidth]{Figures/KinDistr/2018/KDvsM4l_Unblinded_Inclusive.pdf}
+%		\includegraphics[width=0.455\textwidth]{Figures/KinDistr/KDvsM4lZoomed_Unblinded_all_categoriesRun2.png} 
+%                \includegraphics[width=0.455\textwidth]{Figures/KinDistr/KDvsM4lHighMass_Unblinded_InclusiveRun2.png} \\
+%		
+%		\caption{
+%		%\textb{FIXME: Add low mass plots after unblinding.}
+%			%One-dimensional distribution of the kinematic discriminant $\KD$ in the full mass range (blinded), for all final states (top left) and for 4e  (top right), 4mu (bottom left) and 2e2mu (bottom right) separately.  Points with error bars represent the data and stacked histograms represent expected distributions. The $125~\GeV$ Higgs boson signal and the $\cPZ\cPZ$ backgrounds are normalized to the SM expectation, the $\cPZ$+X background to the estimation from data.
+%			Top row: One-dimensional distribution of the kinematic discriminant $\KD$ in the full mass range (left) and in the mass region $118<\mllll<130~\GeV$ (right). Points with error bars represent the data and stacked histograms represent expected distributions. The $125~\GeV$ Higgs boson signal and the $\cPZ\cPZ$ backgrounds are normalized to the SM expectation, the $\cPZ$+X background to the estimation from data.
+%			Bottom row: Distribution of the kinematic discriminant $\KD$ versus the four-lepton reconstructed mass $\mllll$ in the low-mass region (left) and in the high-mass region (right). The gray scale represents the expected relative density of $\cPZ\cPZ$ background plus Higgs boson signal for $\mH=125~\GeV$. The points show the data and the horizontal bars represent the measured mass uncertainties. 
+%			\label{fig:KDvsM4lC}}
+%	\end{center}
+%\end{figure}
+%%=======
+%
+%%=======
+%\begin{figure}[!htb]
+%	\vspace*{0.3cm}
+%	\begin{center}
+%		\includegraphics[width=0.455\textwidth]{Figures/KinDistr/DVBFDEC_Unblinded_4l_VBF2jTaggedRun2.png} %d_KD_4l_inclusive_.pdf}KD_Blinded_4l_Inclusive.pdf
+%		\includegraphics[width=0.455\textwidth]{Figures/KinDistr/DVBFDEC_M4L118130_Unblinded_4l_VBF2jTaggedRun2.png} \\
+%		\includegraphics[width=0.455\textwidth]{Figures/KinDistr/DVBFDECvsM4lZoomed_Unblinded_all_categoriesRun2.png}
+%		%\includegraphics[width=0.455\textwidth]{Figures/KinDistr/KDvsM4lZoomed_Unblinded_all_categories.pdf} \\
+%		\caption{ %\textb{FIXME: Add low mass plots after unblinding.}
+%			%One-dimensional distribution of the kinematic discriminant $\KD$ in the full mass range (blinded), for all final states (top left) and for 4e  (top right), 4mu (bottom left) and 2e2mu (bottom right) separately.  Points with error bars represent the data and stacked histograms represent expected distributions. The $125~\GeV$ Higgs boson signal and the $\cPZ\cPZ$ backgrounds are normalized to the SM expectation, the $\cPZ$+X background to the estimation from data.
+%			Top row: One-dimensional distribution of the kinematic discriminant $\DbkgVBFdec$ in the full mass range (left) and in the mass region $118<\mllll<130~\GeV$ (right). Points with error bars represent the data and stacked histograms represent expected distributions. The $125~\GeV$ Higgs boson signal and the $\cPZ\cPZ$ backgrounds are normalized to the SM expectation, the $\cPZ$+X background to the estimation from data.
+%			Bottom row: Distribution of the kinematic discriminant $\DbkgVBFdec$ versus the four-lepton reconstructed mass $\mllll$ in the low-mass region.
+%			% (left) and in the high-mass region (right). 
+%			The gray scale represents the expected relative density of $\cPZ\cPZ$ background plus Higgs boson signal for $\mH=125~\GeV$. The points show the data and the horizontal bars represent the measured mass uncertainties. 
+%			\label{fig:KDVBFsvsM4lC}}
+%	\end{center}
+%\end{figure}
+%%=======
+%
+%%=======
+%\begin{figure}[!htb]
+%	\vspace*{0.3cm}
+%	\begin{center}
+%	  \includegraphics[width=0.455\textwidth]{Figures/KinDistr/DVHDEC_Unblinded_4l_VHHadrTaggedRun2.png} 
+%		\includegraphics[width=0.455\textwidth]{Figures/KinDistr/DVHDEC_M4L118130_Unblinded_4l_VHHadrTaggedRun2.png} \\
+%		\includegraphics[width=0.455\textwidth]{Figures/KinDistr/DVHDECvsM4lZoomed_Unblinded_all_categoriesRun2.png}
+%		%\includegraphics[width=0.455\textwidth]{Figures/KinDistr/KDvsM4lZoomed_Unblinded_all_categories.pdf} \\
+%		\caption{ %\textb{FIXME: Add low mass plots after unblinding.}
+%			%One-dimensional distribution of the kinematic discriminant $\KD$ in the full mass range (blinded), for all final states (top left) and for 4e  (top right), 4mu (bottom left) and 2e2mu (bottom right) separately.  Points with error bars represent the data and stacked histograms represent expected distributions. The $125~\GeV$ Higgs boson signal and the $\cPZ\cPZ$ backgrounds are normalized to the SM expectation, the $\cPZ$+X background to the estimation from data.
+%			Top row: One-dimensional distribution of the kinematic discriminant $\DbkgVHdec$ in the full mass range (left) and in the mass region $118<\mllll<130~\GeV$ (right). Points with error bars represent the data and stacked histograms represent expected distributions. The $125~\GeV$ Higgs boson signal and the $\cPZ\cPZ$ backgrounds are normalized to the SM expectation, the $\cPZ$+X background to the estimation from data.
+%			Bottom row: Distribution of the kinematic discriminant $\DbkgVHdec$ versus the four-lepton reconstructed mass $\mllll$ in the low-mass region.
+%			% (left) and in the high-mass region (right). 
+%			The gray scale represents the expected relative density of $\cPZ\cPZ$ background plus Higgs boson signal for $\mH=125~\GeV$. The points show the data and the horizontal bars represent the measured mass uncertainties. 
+%			\label{fig:KDVHsvsM4lC}}
+%	\end{center}
+%\end{figure}
 %=======
 
 %=======
@@ -412,49 +413,49 @@ Their correlations with $\mllll$ are shown in Fig.~\ref{fig:Dprod-corrC}.
 
 
 %=======
-\begin{figure}[!htb]
-	\vspace*{0.3cm}
-	\begin{center}
-		\includegraphics[width=0.45\textwidth]{Figures/KinDistr/D1jet_M4L118130_Unblinded_4l_InclusiveRun2.png}
-		\includegraphics[width=0.45\textwidth]{Figures/KinDistr/D2jet_M4L118130_Unblinded_4l_InclusiveRun2.png}\\
-		\includegraphics[width=0.45\textwidth]{Figures/KinDistr/DVH_M4L118130_Unblinded_4l_InclusiveRun2.png}
-		%\includegraphics[width=0.45\textwidth]{Figures/KinDistr/2018/DWH_M4L118130_Unblinded_4l_Inclusive.pdf} \\ %DWH_M4L118130_4l_inclusive_.pdf}
-		%\includegraphics[width=0.45\textwidth]{Figures/KinDistr/e_DZH_M4L118130_4l_inclusive_.pdf}
-		\caption{Distribution of the three production discriminants used for event categorization, in the mass region $118<\mllll<130~\GeV$. Points with error bars represent the data and stacked histograms represent expected distributions. The $125~\GeV$ Higgs boson signal and the $\cPZ\cPZ$ backgrounds are normalized to the SM expectation, the $\cPZ$+X background to the estimation from data. 
-			\label{fig:DprodC}}
-	\end{center}
-\end{figure}
-%=======
-
-%=======
-\begin{figure}[!htb]
-	\vspace*{0.3cm}
-	\begin{center}
-		\includegraphics[width=0.45\textwidth]{Figures/KinDistr/D1jetvsM4lZoomed_Unblinded_InclusiveRun2.png}
-		\includegraphics[width=0.45\textwidth]{Figures/KinDistr/D2jetvsM4lZoomed_Unblinded_InclusiveRun2.png}\\
-		\includegraphics[width=0.45\textwidth]{Figures/KinDistr/DVHvsM4lZoomed_Unblinded_InclusiveRun2.png}
-		%\includegraphics[width=0.45\textwidth]{Figures/KinDistr/e_2D_M4lVsDWH_M4L100170_4l_.pdf}
-		%\includegraphics[width=0.45\textwidth]{Figures/KinDistr/e_2D_M4lVsDZH_M4L100170_4l_.pdf}
-		\caption{Distribution of the three production discriminants used for event categorization versus the four-lepton reconstructed mass $\mllll$ in the low-mass region. The gray scale represents the expected relative density of $\cPZ\cPZ$ background plus Higgs boson signal for $\mH=125~\GeV$. The points show the data and the horizontal bars represent the measured mass uncertainties.
-			\label{fig:Dprod-corrC}}
-	\end{center}
-\end{figure}
-%=======
-
-
-\clearpage
-
-The Fig.\ref{fig:STXS_Categorization} shows number of expected and observed events in all Stage 1.1 sub-categories for full Run 2.     
-
-
-%=============                                                                                                                    
-\begin{figure}[!htb]
-	\vspace*{0.3cm}
-	\begin{center}	
-		\includegraphics[width=0.9\textwidth]{Figures/stxs/STXS_Categorization.pdf}
-		\caption{Distributions of the expected and observed number of events for all Stage 1.1 sub-categories described in Section~\ref{subsec:STXS_Categories} in the mass region $118<\mllll<130\GeV$ with Run 2 data. Points with error bars represent the data and stacked histograms represent the expected numbers of the signal and background events. The different SM Higgs boson signal production modes with $\mH=125\GeV$, denoted as ${\rm H}(125)$, and the $\cPZ\cPZ$ backgrounds are normalized to the SM expectation, the $\cPZ$+X background to the estimation from data. 
-			%The order in perturbation theory used for the normalization of the irreducible backgrounds is described in Section~\ref{sec:irrbkgd}.
-			\label{fig:STXS_Categorization}}
-	\end{center}
-\end{figure}
-%=======      
+%\begin{figure}[!htb]
+%	\vspace*{0.3cm}
+%	\begin{center}
+%		\includegraphics[width=0.45\textwidth]{Figures/KinDistr/D1jet_M4L118130_Unblinded_4l_InclusiveRun2.png}
+%		\includegraphics[width=0.45\textwidth]{Figures/KinDistr/D2jet_M4L118130_Unblinded_4l_InclusiveRun2.png}\\
+%		\includegraphics[width=0.45\textwidth]{Figures/KinDistr/DVH_M4L118130_Unblinded_4l_InclusiveRun2.png}
+%		%\includegraphics[width=0.45\textwidth]{Figures/KinDistr/2018/DWH_M4L118130_Unblinded_4l_Inclusive.pdf} \\ %DWH_M4L118130_4l_inclusive_.pdf}
+%		%\includegraphics[width=0.45\textwidth]{Figures/KinDistr/e_DZH_M4L118130_4l_inclusive_.pdf}
+%		\caption{Distribution of the three production discriminants used for event categorization, in the mass region $118<\mllll<130~\GeV$. Points with error bars represent the data and stacked histograms represent expected distributions. The $125~\GeV$ Higgs boson signal and the $\cPZ\cPZ$ backgrounds are normalized to the SM expectation, the $\cPZ$+X background to the estimation from data. 
+%			\label{fig:DprodC}}
+%	\end{center}
+%\end{figure}
+%%=======
+%
+%%=======
+%\begin{figure}[!htb]
+%	\vspace*{0.3cm}
+%	\begin{center}
+%		\includegraphics[width=0.45\textwidth]{Figures/KinDistr/D1jetvsM4lZoomed_Unblinded_InclusiveRun2.png}
+%		\includegraphics[width=0.45\textwidth]{Figures/KinDistr/D2jetvsM4lZoomed_Unblinded_InclusiveRun2.png}\\
+%		\includegraphics[width=0.45\textwidth]{Figures/KinDistr/DVHvsM4lZoomed_Unblinded_InclusiveRun2.png}
+%		%\includegraphics[width=0.45\textwidth]{Figures/KinDistr/e_2D_M4lVsDWH_M4L100170_4l_.pdf}
+%		%\includegraphics[width=0.45\textwidth]{Figures/KinDistr/e_2D_M4lVsDZH_M4L100170_4l_.pdf}
+%		\caption{Distribution of the three production discriminants used for event categorization versus the four-lepton reconstructed mass $\mllll$ in the low-mass region. The gray scale represents the expected relative density of $\cPZ\cPZ$ background plus Higgs boson signal for $\mH=125~\GeV$. The points show the data and the horizontal bars represent the measured mass uncertainties.
+%			\label{fig:Dprod-corrC}}
+%	\end{center}
+%\end{figure}
+%%=======
+%
+%
+%\clearpage
+%
+%The Fig.\ref{fig:STXS_Categorization} shows number of expected and observed events in all Stage 1.1 sub-categories for full Run 2.     
+%
+%
+%%=============                                                                                                                    
+%\begin{figure}[!htb]
+%	\vspace*{0.3cm}
+%	\begin{center}	
+%		\includegraphics[width=0.9\textwidth]{Figures/stxs/STXS_Categorization.pdf}
+%		\caption{Distributions of the expected and observed number of events for all Stage 1.1 sub-categories described in Section~\ref{subsec:STXS_Categories} in the mass region $118<\mllll<130\GeV$ with Run 2 data. Points with error bars represent the data and stacked histograms represent the expected numbers of the signal and background events. The different SM Higgs boson signal production modes with $\mH=125\GeV$, denoted as ${\rm H}(125)$, and the $\cPZ\cPZ$ backgrounds are normalized to the SM expectation, the $\cPZ$+X background to the estimation from data. 
+%			%The order in perturbation theory used for the normalization of the irreducible backgrounds is described in Section~\ref{sec:irrbkgd}.
+%			\label{fig:STXS_Categorization}}
+%	\end{center}
+%\end{figure}
+%%=======      
