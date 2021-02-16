@@ -8,3 +8,4 @@
 \input{strategy/acc_correc_fac.tex}
 \input{strategy/stat_procedure.tex}
 \input{strategy/ExtractionDifferential.tex}
+\input{strategy/eft_interp_strat.tex}

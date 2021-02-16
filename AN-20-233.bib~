@@ -1284,7 +1284,7 @@
 }                         
 
 
-@TECHREPORT{CMS-PAS-HIG-09-001,
+@TECHREPORT{CMS-PAS-HIG-19-001,
 	COLLABORATION = "CMS",
 	TITLE       = "Measurements of properties of the Higgs boson in the four-lepton final state at sqrt(s)=13 TeV with full Run II data",
 	URL         = "http://cdsweb.cern.ch/record/1194487",

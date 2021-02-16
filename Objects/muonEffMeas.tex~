@@ -35,8 +35,9 @@ and passing the Muon POG Loose muon identification.
 %\end{enumerate}
 
 %For low \pt measurements of reconstruction and identification only first three systematic sources 
-Details on the procedure can be found in Ref.~\cite{AN-15-277}. The efficiency and scale 
-factors used for low $\pt$ muons are the ones derived using single muon prompt-reco dataset.
+Details on the procedure can be found in Ref.~\cite{AN-15-277}. 
+The efficiency and scale 
+factors used for low $\pt$ muons are the ones derived using single muon ultra-legacy dataset.
 
 The efficiency in data and simulation is shown in Fig.~\ref{fig:MuonIDEff_1}. 
 \begin{figure}[htbp]

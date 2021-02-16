@@ -424,8 +424,10 @@ A summary of the trigger efficiencies in MC truth, and in MC and data using the 
 
 Descriptions of the SM Higgs boson production are obtained using the 
 {\sc powheg V2}~\cite{Alioli:2008gx,Nason:2004rx,Frixione:2007vw} generator for the five main production modes: 
+%gluon fusion ($\ggH$) including quark mass effects~\cite{Bagnaschi:2011tu}, vector boson fusion 
 gluon fusion ($\ggH$) including quark mass effects~\cite{Bagnaschi:2011tu}, vector boson fusion 
 (VBF)~\cite{Nason:2009ai}, and associated production (WH, $\cPZ$H and \ttbar$\,$H~\cite{Hartanto:2015uka}). 
+The simulation of Higgs production through gluon fusion i.e. $\ggH$ production at next-to-next-to-leading order (NNLO) is obtained by {\sc NNLOPS} \cite{Hamilton:2013fea} and is used in the analysis as reference theory predictions for observed differential cross section results. A dedicated studies using {\sc MadGraph5\_aMC@NLO-FxFx} generators with next-to-leading order (NLO) accuracy is done for $\ggH$ production as additional theoretical predication for fiducial cross section measurement. Details are described in Section \ref{madgraph5}. 
 In the case of WH and $\cPZ$H the {\sc MiNLO HVJ} extension of {\sc powheg} is used~\cite{Luisoni:2013kna}. 
 The description of the decay of the Higgs boson to four leptons is obtained using the {\sc JHUgen} 
 generator~\cite{Gao:2010qx}. In the case of WH, $\cPZ$H and \ttbar$\,$H, the Higgs boson is allowed
@@ -435,7 +437,7 @@ Showering of parton-level events is done using {\sc pythia8.209}, and in all cas
 allowing QCD emissions at all energies in the shower and vetoing them afterwards according to the 
 {\sc powheg} internal scale. All samples are generated with the NNPDF 3.1 NLO parton distribution 
 functions (PDFs)~\cite{Ball:2014uwa}. The list of signal samples and their cross sections are shown in 
-Table~\ref{tab:SignalSamples}.
+Table~\ref{tab:SignalSamples}. For each year, corresponding simulation samples are reweighted to match the pileup distribution in data for which details are described in \cite{CMS-PAS-HIG-19-001}.
 
 \begin{table}
 \begin{scriptsize}
@@ -463,6 +465,10 @@ $\rm{q\bar{q}/\rm{qg}\to tHq \to tq\cPZ\cPZ\to4\ell+\rm{X}$ & /tqH\_HToZZTo4L\_M
   \label{tab:SignalSamples}
 \end{scriptsize}
 \end{table}
+
+\subsubsubsection{\textbf{{\sc madgraph5} simulation of Higgs production}} \label{madgraph5}
+To be updated.
+
 
 \subsubsection{Background Samples}
 
@@ -532,19 +538,19 @@ $t\bar{t}$+$\cPZ & /ttZJets\_13TeV\_madgraphMLM/ & 0.259 pb \\
 \end{table}
 
 
-\subsubsection{Pileup Reweighting}
-%\textbf{FIXME TO BE UPDATED}
-For each year, corresponding simulation samples are reweighted to match the pileup distribution in data, as shown on the Fig.~\ref{fig:puWeight2018}. The minimum bias cross-section used for each year is 69.2 mb.
-%=======
-\begin{figure}[!htb]
-	\vspace*{0.3cm}
-	\begin{center}
-		\includegraphics[width=0.45\textwidth]{Figures/PileUp/pu_weights_2016.pdf} \\
-                \includegraphics[width=0.45\textwidth]{Figures/PileUp/pu_weights_2017.pdf} \\
-                \includegraphics[width=0.45\textwidth]{Figures/PileUp/pu_weights_2018.pdf} \\
-		\caption{Distribution of pileup in 2016 (top), 2017 (middle) and 2018 (bottom) MC and Data shown before and after the application of PU weights. Up and down variations of 5\% in the minimum bias
-			cross section when calculating the weighs are also shown.
-			\label{fig:puWeight2018}}
-	\end{center}
-\end{figure}
-%=======
+%\subsubsection{Pileup Reweighting}
+%%\textbf{FIXME TO BE UPDATED}
+%For each year, corresponding simulation samples are reweighted to match the pileup distribution in data, as shown on the Fig.~\ref{fig:puWeight2018}. The minimum bias cross-section used for each year is 69.2 mb.
+%%=======
+%\begin{figure}[!htb]
+%	\vspace*{0.3cm}
+%	\begin{center}
+%		\includegraphics[width=0.45\textwidth]{Figures/PileUp/pu_weights_2016.pdf} \\
+%                \includegraphics[width=0.45\textwidth]{Figures/PileUp/pu_weights_2017.pdf} \\
+%                \includegraphics[width=0.45\textwidth]{Figures/PileUp/pu_weights_2018.pdf} \\
+%		\caption{Distribution of pileup in 2016 (top), 2017 (middle) and 2018 (bottom) MC and Data shown before and after the application of PU weights. Up and down variations of 5\% in the minimum bias
+%			cross section when calculating the weighs are also shown.
+%			\label{fig:puWeight2018}}
+%	\end{center}
+%\end{figure}
+%%=======
