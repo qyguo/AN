@@ -1,0 +1,96 @@
+\section{Background Estimation}
+
+Details on the background processes and their modeling is discussed in detail in AN \cite{CMS-PAS-HIG-19-001}.
+In order to perform the differential measurements, the background four-lepton mass spectrum
+ need to be extracted at the reconstruction level for each bin of the considered observable. In
+ general, the background mass spectrum shape is not the same in every bin of the considered
+ observable because the background does not have a resonance structure. The mass spectrum
+ also can have non-negligible correlation with the observables. 
+\par In case of the irreducible backgrounds, the four-lepton mass spectra are extracted as the $m_{4l}$
+template shapes using Monte Carlo simulated events for each bin of the observable considered
+ for the measurement. Similarly, in case of the reducible backgrounds the templates are built
+ from the control regions in data.
+\par In each differential bin of $\pt(4\ell)$ fractions of background events are presented in the Table \ref{tab:fractions_pT4l}.
+\begin{table}[!h!tb]
+\begin{center}
+%\small
+\scriptsize
+%\tiny
+    \caption{
+        Estimated fraction of background events in each bin of $\pt(4\ell)$, for each final state using 2018 samples.
+%\label{tab:fractions_pT4l-main}
+\label{tab:fractions_pT4l}
+}
+%\begin{tabular}{|l|c|c|c|c|c|}
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|}
+\hline
+%Background & final state & $0\leq$$\pt(4\ell)$$<15$ & $15\leq$$\pt(4\ell)$$<30$ & $30\leq$$\pt(4\ell)$$<45$ & $45\leq$$\pt(4\ell)$$<80$ & $80\leq$$\pt(4\ell)$$<120$ & $120\leq$$\pt(4\ell)$$<200$ & $200\leq$$\pt(4\ell)$$<13000$ \\ \hline
+Background & final state & $0-15$ & $15-30$ & $30-45$ & $45-80$ & $80-120$ & $120-200$ & $200-13000$ \\ \hline
+qqZZ& $2e2\mu$  & 0.483668  & 0.239196  & 0.130151  & 0.105276 & 0.0266332  & 0.011809  & 0.00326633 \\
+qqZZ& $4e$  & 0.459665  & 0.234399  & 0.136986  & 0.114916 & 0.0388128  & 0.00989346  & 0.00532725 \\
+qqZZ& $4\mu$  & 0.492632  & 0.241203  & 0.110977  & 0.109173 & 0.0297744  & 0.0129323  & 0.00330827 \\
+\hline
+ggZZ& $2e2\mu$  &  0.310446 & 0.309859  & 0.191901  & 0.168134 & 0.0187793  & 0.000880282  & 0.0 \\
+ggZZ& $4e$  & 0.3085  & 0.306332  & 0.19247  & 0.17433 & 0.0169994  & 0.00136908  & 0.0 \\
+ggZZ& $4\mu$  & 0.321332  & 0.319311  & 0.194863  & 0.150987 & 0.0128703  & 0.000638196  & 0.0 \\
+\hline
+Z+X (CR)& 4l  & 0.0992521  & 0.211153  & 0.209307 & 0.305327  & 0.120303  & 0.0483797 & 0.00627828 \\
+\hline
+\end{tabular}
+\normalsize
+\end{center}
+\end{table}
+
+
+\subsection{Estimation of ZZ normalization from Data}
+In earlier analyses, both the shape and the normalization for $\qqZZ$ background were measured from simulation. 
+	However, with full Run 2 statistics, we can benefit from enough statistics to extend $\mllll$ range to fit ZZ normalization from data, still taking shapes from simulation.This would help to improve the estimation and as well as reduction in uncertainties because luminosity and other theoretical uncertainties no longer contribute to the normalization. (studies in under validation)  
+
+%\subsection{Irreducible Backgrounds}
+%\label{sec:irrbkgd}
+%\input{Background/IrrBkg.tex}
+%
+%\clearpage
+%
+%\subsection{Reducible Background}
+%%\textbf{work on-going to improve the Z+X estimation and reduce its uncertainty}
+%\label{sec:zxIntr}
+%\input{Background/zxIntr.tex}
+%
+%% OS method
+%
+%\subsubsection{Reducible Background Estimate with Opposite-Sign Leptons}
+%\label{sec:zxOS}
+%\input{Background/zxOS.tex}
+%
+%% SS method
+%
+%\clearpage
+%
+%\subsubsection{Reducible Background Estimate with Same-Sign Leptons}
+%\label{sec:zxSS}
+%\input{Background/zxSS.tex}
+%
+%% ZX Shapes                                                                                                                                                                                            
+%\subsubsection{Shapes of the $m_{4\ell}$ distribution for the Reducible Background}
+%\label{sec:zxShapes}
+%\input{Background/zxShapes.tex}
+%
+%% Uncertainties
+%
+%\subsubsection{Uncertainties on Reducible Background estimation methods} %using Opposite-Sign leptons}
+%\label{sec:zxUncert}
+%\input{Background/zxUncert.tex}
+%
+%% Combination 
+% 
+%\subsubsection{Combination}
+%\label{sec:zxComb}
+%\input{Background/zxComb}
+%
+%%%%%
+%
+%\subsection{Rare Backgrounds}
+%\label{sec:rare}
+%The triboson backgrounds $\cPZ\cPZ\cPZ$, $\PW\cPZ\cPZ$, and $\PW\PW\cPZ$ and $\ttZ$, $\ttWW$, and $\ttZZ$ processes are also considered.
+%These rare backgrounds are all estimated from simulation and are commonly referred to as the electroweak (EWK) backgrounds.

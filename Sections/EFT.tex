@@ -1,0 +1,30 @@
+\subsection{EFT intereprations}
+
+Effective Field Theory (EFT) is an model independent way to parametrize the high enregy scale effects in the enregy scale available to us. The general form of the lagrangian is:
+
+\begin{equation}
+    \mathcal{L} = \mathcal{L}_{SM} + \mathcal{L}^{5} + \mathcal{L}^{6} + \mathcal{L}^{7} + \ldots,\quad \mathcal{L}^{(d)} = \sum_{i=1}^{n_d} \frac{C_i^{(d)}}{\Lambda^{d-4}}Q_i^{(d)} \quad \textrm{for}~ d>4,
+\end{equation}
+
+Where $\Lambda$ is the New Physics (NP) enregy scale, the parameter $C_{i}{(d)}$ are the Wilson Coefficients.
+
+One of most promissing EFT model is the SMEFT \cite{Brivio:2017btx,Aebischer:2017ugx}. Since the operators $Q_{i}^{(d)}$ are surpresssed by the power of cutoff scale $\Lambda$, so we will work with dimension-6 operators only.
+
+Currently, we are trying to produce the Leading Order (LO) ggH process with additional jets upto 2 jets. Like:
+
+\begin{verbatim}
+import model SMEFTsim_A_general_MwScheme_UFO_v2
+#import model SMEFTsim_A_general_alphaScheme_UFO_v2
+generate p p > h QED=1 NP<=1 @0
+add process p p > h j QED=1 NP<=1 @1
+add process p p > h j j QED=1 NP<=1 @2
+\end{verbatim}
+
+Our plan with this is following:
+
+\begin{itemize}
+    \item Generate SM from the SMEFT model and compare it with the NNNLOPS official samples (from HIG-19-001).
+    \item Decide the set of parameter for which our analysis is sensitive.
+    \item Validate the reweight method for our model.
+    \item After finalizing previous step we will try to submit for official full CMSSW simulation.
+\end{itemize}
