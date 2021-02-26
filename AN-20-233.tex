@@ -83,7 +83,7 @@
 \cmsNoteHeader{AN-20-233}
 % >> Title: please make sure that the non-TeX equivalent is in PDFTitle below for papers. For PASs, PDFTitle can be used with plain TeX.
 %\title{Measurements of Higgs differential cross section and interpretations in $\rm H\rightarrow 4\ell$ ($\ell=\rm e,\mu$) channel}
-\title{Measurements of Higgs differential cross section and interpretations in $\mathrm{H}\rightarrow{\rm Z}{\rm Z}\rightarrow4\ell$ ($\ell={\rm e},\mu$) channel}
+\title{Measurements of Higgs differential cross section and interpretations in \texorpdfstring{$\mathrm{H}\rightarrow{\rm Z}{\rm Z}\rightarrow4\ell$ ($\ell={\rm e},\mu$)} channel}
 
 % >> Authors
 %Author is always "The CMS Collaboration" for PAS and papers, so author, etc, below will be ignored in those cases
@@ -115,10 +115,10 @@
 % No unescaped comment % characters.
 % No curly braces {} except for TeX in the PDFtitle.
 \hypersetup{%
-pdfauthor={Tahir Javaid},%
-pdftitle={Measurements of Higgs differential cross section and interpretations in $\mathrm{H}\rightarrow{\rm Z}{\rm Z}\rightarrow4\ell$ ($\ell={\rm e},\mu$) channel},%
+pdfauthor={Qianying Guo, Vukasin Milosevic, Tahir Javaid, Ram Krishna Sharma},%
+pdftitle={Measurements of Higgs differential cross section and interpretations in \texorpdfstring{$\mathrm{H}\rightarrow{\rm Z}{\rm Z}\rightarrow4\ell$ ($\ell={\rm e},\mu$)} channel},%
 pdfsubject={CMS},%
-pdfkeywords={CMS, your topics}}
+pdfkeywords={CMS, Higgs, ggH, SMEFT, Higgs Characterization, HEL, HEFT}}
 
 \maketitle %maketitle comes after all the front information has been supplied
 % >> Text
@@ -141,53 +141,37 @@ pdfkeywords={CMS, your topics}}
 
 \clearpage%
 
-\input{Introduction}
-\input{EFT}
+\input{Sections/Introduction}
+% \input{Sections/EFT}
 \clearpage%
-%\input{Changes}
+\input{Sections/Datasets} %%% 
 \clearpage
-\input{Datasets} %%% 
+\input{Sections/Objects} %%% 
 \clearpage
-\input{Objects} %%% 
+\input{Sections/Signal} %%% 
 \clearpage
-%\input{strategy}
-%\clearpage
-%\input{strategy/EventSelection} %%% 
-%\clearpage
-%\input{strategy/def_fid_vol}
-%\clearpage
-%\input{strategy/unfolding}
-%\clearpage
-%\input{Observables} %%% 
-%\clearpage
-%\input{Categories}  %%% 
-%\clearpage
-%\input{Background} %%% 
-%\clearpage
-\input{Signal} %%% 
+\input{Sections/Background} %%% 
 \clearpage
-\input{Background} %%% 
+\input{Sections/strategy}
 \clearpage
-\input{strategy}
+\input{Sections/Systematics} %%%
 \clearpage
-\input{Systematics} %%%
+\input{Sections/Yields} %%% 
 \clearpage
-\input{Yields} %%% 
+\input{Sections/Results} %%%
 \clearpage
-\input{Results} %%%
+\input{Sections/Interpretation} %%%
 \clearpage
-
-%% **DO NOT REMOVE BIBLIOGRAPHY**
-%\bibliography{auto_generated}
-%% examples of appendices.
-%\clearpage
+% %% examples of appendices.
+% \clearpage
 \appendix
 %\section{Appendix name}
 \begin{appendices}
-\input{Appendix/SignalInputs} \label{app:siginputs}
+\input{Sections/Appendix/SignalInputs} \label{app:siginputs}
 \end{appendices}
-\clearpage
+% \clearpage
 
+%% **DO NOT REMOVE BIBLIOGRAPHY**
 \bibliography{auto_generated}
 %%% DO NOT ADD \end{document}!
 

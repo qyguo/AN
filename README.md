@@ -5,3 +5,10 @@ Measurements of Higgs differential cross section and interpretations in $\\rm H\
 eval `utils/tdr runtime -sh`
 tdr --style=note b
 ```
+
+If you want to save the pdf in the home directory you can do :
+
+```bash
+tdr --style=note --temp_dir=tmp b
+```
+
